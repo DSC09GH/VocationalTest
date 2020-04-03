@@ -1,0 +1,183 @@
+/*====================== PÁGINA INICIAL ======================*/
+#body1{
+	background-image: url(../img/14.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+.all{
+	text-align: center;
+	top: 50%
+	left: 50%;
+}
+.text{
+	margin-top: 150px;
+	font-size: 100px;
+	color: white;
+	text-decoration: underline;
+	text-decoration-color:#008B8B; 
+	font-weight: bold;
+	text-shadow: 5px 5px 6px black;
+	font-family: 'Satisfy', cursive;
+}
+.button{
+	margin-top: -20px;
+	font-size: 23px;
+	border-radius: 6px;
+	background: #008B8B;
+	cursor: pointer;
+	padding: 5px;
+	border-style: solid;
+	border-color: black;
+	box-shadow:5px 5px 6px black; 
+	font-family: 'Oswald', sans-serif;
+}
+.link{
+	color: black;
+	text-decoration: none;
+}
+.dropdown {
+  	position: relative;
+  	display: inline-block;
+  	margin-top: 11px;
+  	left: 89%;
+}
+.dropdown .box{
+	font-size: 15px;
+	border-radius: 6px;
+	text-align: center;
+	background: transparent;
+	cursor: pointer;
+	color: white;
+	padding: 2px;
+	border-style: solid;
+	border-color: #008B8B; 
+	font-family: 'Oswald', sans-serif;
+}
+.dropdown-text {
+	display: none;
+	font-size: 17px;
+	text-align: center;
+	position: absolute;
+	background-color:#008B8B;
+	width: 96px;
+	box-shadow:5px 5px 6px 5px black; 
+	padding: 6px;
+	z-index: 1;
+}
+.dropdown:hover .dropdown-text {
+    display: block;
+}
+/*====================== QUESTIONÁRIO ======================*/
+#body2{
+	background:#008B8B;
+	margin: 0;
+	padding: 0;
+}
+.title{
+	margin-top: -35px;
+	background: white;
+	border-radius: 6px;
+	box-shadow:5px 5px 6px 5px black; 
+	background:#008B8B ;
+	color: black;
+}
+.title h1{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Satisfy', cursive;
+	text-decoration: underline;
+	 
+}
+.title h2{
+	margin-top: -20px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 5px;
+	border-style: solid;
+	background: white;
+}
+.perguntas{
+	margin-top: 50px;
+	margin-left: 68px;
+	background: white;
+	border-radius: 6px;
+	font-family: 'Oswald', sans-serif;
+	width: 90%;
+	box-shadow:5px 5px 6px 5px black; 
+}
+.pergunta{
+	font-family: 'Oswald', sans-serif;
+	padding-left: 10px;
+}
+.opcoes{
+	padding: 10px;
+}
+.exibirresultados input{
+	position: relative;
+	margin: 30px auto 30px 45%;
+	cursor: pointer;
+	font-size: 22px;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 6px;
+	border-style: solid;
+	border-color: black;
+}
+/*====================== RESULTADOS ======================*/
+#body3{
+	background:#008B8B; 
+	margin: 0;
+	padding: 0;
+}
+#body3 h1{
+	position: relative;
+	font-size: 80px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: white;
+	font-family: 'Satisfy', cursive;
+}
+#body3 h2{
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 6px;
+	background: white;
+	border-radius: solid;
+	font-family: 'Oswald', sans-serif;
+	padding: 5px;
+}
+.cursos {
+	text-align: center;
+	font-size: 40px;
+	padding: 3px;
+	font-family: 'Oswald', sans-serif;
+}
+.repeat{
+	position: relative;
+	left: 40%;
+	font-size: 22px;
+	padding: 4px;
+	font-family: 'Oswald', sans-serif;
+	cursor: pointer;
+	border-radius: 6px;
+	border-color: black;
+	margin: 30px auto 133px auto;
+	box-shadow:5px 5px 6px 5px black; 
+}
+.error{
+	padding-bottom: 50px;
+}
+/*====================== FOOTER ======================*/
+footer{
+	background: #363636;
+	color: white;
+}
+.informacoes{
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+}
